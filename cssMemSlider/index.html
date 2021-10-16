@@ -6,23 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <title>Slider CSS</title>
   </head>
   <body>
+    <h1>Slider HTML+CSS</h1>
+    <input type="radio" name="button" id="slider1" checked />
+    <input type="radio" name="button" id="slider2" />
+    <input type="radio" name="button" id="slider3" />
+    <input type="radio" name="button" id="slider4" />
     <div class="slider__wrapper">
       <div class="slides">
-        <input type="radio" name="button" id="slider1" checked />
-        <input type="radio" name="button" id="slider2" />
-        <input type="radio" name="button" id="slider3" />
-        <input type="radio" name="button" id="slider4" />
+        <div class="slide slider1">
+          <img src="image/1049519086-oboi-smeshnoy-kot.jpg" alt="pic_1" />
+        </div>
+        <div class="slide">
+          <img
+            src="image/1625658621_52-kartinkin-com-p-smeshnie-oboi-krasivie-54.jpg"
+            alt="pic_2"
+          />
+        </div>
+        <div class="slide">
+          <img src="image/262933-Sepik.jpg" alt="pic_3" />
+        </div>
+        <div class="slide">
+          <img src="image/animasyon-film-duvar-kağıtları-8.jpg" alt="pic_4" />
+        </div>
+      </div>
+    </div>
+    <div class="Slider__bottom">
+      <div class="description">
+        <div class="title">
+          <h2 class="title-desc">
+            I'm a smart person. I just do stupid things.
+          </h2>
 
-        <div class="slide slider1"><img src="image/1049519086-oboi-smeshnoy-kot.jpg" alt="pic_1" /></div>
-        <div class="slide"><img src="image/1625658621_52-kartinkin-com-p-smeshnie-oboi-krasivie-54.jpg" alt="pic_2" /></div>
-        <div class="slide"><img src="image/262933-Sepik.jpg" alt="pic_3" /></div>
-        <div class="slide"><img src="image/animasyon-film-duvar-kağıtları-8.jpg" alt="pic_4" /></div>
+          <h2>If you never try you will never know.</h2>
+
+          <h2>
+            My wife and I always compromise. I admit I'm wrong and she agrees
+            with me.
+          </h2>
+          <h2>Do not give up, the beginning is always the hardest.</h2>
+        </div>
       </div>
       <div class="navigation">
         <label for="slider1" class="slider__nav"></label>
