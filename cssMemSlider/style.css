@@ -140,7 +140,7 @@ input[name="button"] {
   transform: scale(0.9);
 }
 
-@media (max-width: 420px) {
+@media screen and (max-width: 420px) {
 .Slider__bottom {
   padding-top: 3rem;
   flex-direction: column-reverse;
